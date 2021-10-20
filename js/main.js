@@ -7,4 +7,5 @@
 const nome = prompt ('inserisci qui il tuo nome');
 const cognome = prompt ('inserisci qui il tuo cognome');
 const colore = prompt ('inserisci qui il tuo colore preferito');
-console.log(nome + cognome + colore + '21');
+document.getElementById("password").innerHTML= nome + cognome + colore + '21';
+//document.getElementById("password").innerHTML= `La tua password è : ${nome}${cognome}${colore}21`;
